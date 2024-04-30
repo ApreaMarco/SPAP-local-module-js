@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Single Page App = Dizionario</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="icon" href="images/favicon.png" />
+        <link rel="stylesheet" href="css/core.css">
+        <script type="module" src="js/core.js">
+        </script>
+    </head>
+
+    <body>
+        <button id="tst01"> Tasto cambio label</button>
+        <br />
+        <br />
+        <button id="tst02"> Tasto count</button>
+        <br />
+        <br />
+        <button id="tst03"> Tasto modifica un attributo CSS (font-size) </button>
+        <br />
+        <br />
+        <button id="tst04"> Tasto modifica degli attributi CSS (background-color, border-radius) </button>
+        <br />
+        <br />
+        <div id="div01">
+            <label id="lb01">Inserisci il tuo nome:</label>
+            <br />
+            <input type="text" id="txtb01" />
+            <br />
+            <button id="tst05"> Tasto recupera testo da input-box </button>
+            <br />
+            <p id="p01"></p>
+            <br />
+        </div>
+        <br />
+        <br />
+        <div id="div02">
+            <label id="lb02">Inserisci un numero:</label>
+            <br />
+            <input type="text" id="txtb02" />
+            <br />
+            <button id="tst06"> Tasto recupera una stringa che rappresenta un numero da input-box </button>
+            <br />
+            <p id="p02"></p>
+            <br />
+        </div>
+
+        <script type="py" src="py/app.py" config="pyscript.toml">
+        </script>
+
+    </body>
+
+</html>
